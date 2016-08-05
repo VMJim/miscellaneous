@@ -8,11 +8,11 @@ As this thread is not receiving the attention I think it deserves, let me also w
 
 What is the F-statistic? Glad you asked. In case of testing if a single coefficient is zero, say $$ b_j $$ -- we call this model the restricted model --, the F-stat is usually expressed as:
 
-$$ F = \frac{ SSR_{restricted} - SSR } {s^2} $$, 
+$ F = \frac{ SSR_{restricted} - SSR } {s^2} $, 
 
 where $$ s^2 = SSR/(n-k) $$ is the unbiased estimator of the error's variance and SSR is the Sum of Squared Residuals of the unrestricted model. Selecting the model with the the lowest $$ SSR_{restricted} $$ among the available models is equivalent to dropping the least significant variable from the model (the F-test is a right-*tailed* test).
 
-**If you trust me that $$ F_{stat} = t_{stat}^2 $$ we're done.** If not continue reading.
+**If you trust me that $$ F_{stat} = t_{stat}^2 $$ we're done.** If not, continue reading.
 
 The definition of the t-statistic in the linear regression model may be stated as follows:
 
